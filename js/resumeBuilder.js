@@ -191,8 +191,8 @@ var projects = {
     },
     {
         "title": "Interactive Resume",
-        "date": "April 2015",
-        "description": "Built an interactive resume to showcase work",
+        "date": "May 2015",
+        "description": "Built an interactive resume using HTML, CSS, Javscript and JQuery.",
         "skills": "HTML, CSS, Javascript, JQuery, Bootstrap, Github, JSON",
         "website": "#"
     }
