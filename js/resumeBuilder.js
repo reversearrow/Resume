@@ -180,7 +180,7 @@ var projects = {
         "date": "March 2015",
         "description": "Took a design mockup as a PDF-file and replicated that design in HTML and CSS.",
         "skills": "HTML, CSS, Wireframing and Bootstrap, Github",
-        "website": "https://github.com/reversearrow/HTML-and-CSS"
+        "website": "https://reversearrow.github.io/Portfolio-Mockup"
     },
     {
         "title": "Build a Search Engine",
