@@ -14,7 +14,7 @@ var HTMLworkWebsite = '<div class = "col-xs-9"> <a href= %website% target="_blan
 var HTMLworkEmployer = '<h5 class="section-titles"> <b> %data% </b> </a>' ;
 var HTMLworkTitle = '  - %data%  </h5> </div>';
 var HTMLworkDates = '<div class="col-xs-12"><h5 class="work-dates">%data%</h5></div>';
-var HTMLworkLocation = '<div class="col-xs-3 text-right"><h5><a href = "http://maps.google.com/?q=%data%" target="_blank">%data%</a></h5></div>';
+var HTMLworkLocation = '<div class="text-right"><h5><a href = "http://maps.google.com/?q=%data%" target="_blank">%data%</a></h5></div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 var HTMLresponsibility = '<div class = "col-md-12"><h5 class="responsibility-heading"> <i class="fa fa-thumbs-o-up"></i> Responsibilities:</h5><ul class="responsibility"> </ul></div>'
 var HTMLkeyachievements = '<div class = "col-md-12"><h5><i class="fa fa-star"></i> Key Achievements:</h5><ul class="keyachievements"> </ul></div>'
