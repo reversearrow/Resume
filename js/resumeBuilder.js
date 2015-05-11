@@ -161,7 +161,7 @@ var work = {
             }
         }
     }
-}
+};
 
 //Projects Variable - Encapsulating projects data and display function.
 var projects = {
