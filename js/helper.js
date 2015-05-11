@@ -10,14 +10,14 @@ var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
 var HTMLworkSection = '<div id = "work-section" class = "section"> </div>'
 var HTMLworkDetails = '<div class = "details row"> </div>'
-var HTMLworkWebsite = '<div class = "col-xs-9"> <a href= %website% target="_blank">'
+var HTMLworkWebsite = '<div class = "col-md-9"> <a href= %website% target="_blank">'
 var HTMLworkEmployer = '<h5 class="section-titles"> <b> %data% </b> </a>' ;
 var HTMLworkTitle = '  - %data%  </h5> </div>';
-var HTMLworkDates = '<div class="col-xs-12"><h5 class="work-dates">%data%</h5></div>';
-var HTMLworkLocation = '<div class="col-xs-3 text-right"><h5><a href = "http://maps.google.com/?q=%data%" target="_blank">%data%</a></h5></div>';
+var HTMLworkDates = '<div class="col-md-12"><h5 class="work-dates">%data%</h5></div>';
+var HTMLworkLocation = '<div class="col-md-3 text-right"><h5><a href = "http://maps.google.com/?q=%data%" target="_blank">%data%</a></h5></div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
-var HTMLresponsibility = '<div class = "col-xs-12"><h5 class="responsibility-heading"> <i class="fa fa-thumbs-o-up"></i> Responsibilities:</h5><ul class="responsibility"> </ul></div>'
-var HTMLkeyachievements = '<div class = "col-xs-12"><h5><i class="fa fa-star"></i> Key Achievements:</h5><ul class="keyachievements"> </ul></div>'
+var HTMLresponsibility = '<div class = "col-md-12"><h5 class="responsibility-heading"> <i class="fa fa-thumbs-o-up"></i> Responsibilities:</h5><ul class="responsibility"> </ul></div>'
+var HTMLkeyachievements = '<div class = "col-md-12"><h5><i class="fa fa-star"></i> Key Achievements:</h5><ul class="keyachievements"> </ul></div>'
 var HTMLresponsibilityList = '<ul class="work-responsiblity"> </ul>'
 var HTMLworkListResponsibility = '<li class="list-unstyled"><i class="fa fa-minus"></i> %data%</li>'
 var HTMLworkListAchievements = '<li class="list-unstyled"><i class="fa fa-check list-icon"></i>%data%</li>'
@@ -25,12 +25,12 @@ var HTMLworkListAchievements = '<li class="list-unstyled"><i class="fa fa-check 
 var HTMLprojectSection = '<div id = "project-section" class = "section"> </div>';
 var HTMLprojectDetails = '<div class = "details row"> </div>';
 var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectLink = '<div class = "col-xs-12"><a href = "%website%" target="_blank">';
+var HTMLprojectLink = '<div class = "col-md-12"><a href = "%website%" target="_blank">';
 var HTMLprojectTitle = '<h5 class="section-titles"> <b> %data% </b> </a> </h5> </div>';
-var HTMLprojectDates = '<div class="col-xs-12"><h5 class="work-dates"> %data% </h5></div>';
-var HTMLprojectDescriptionTitle = '<div class ="col-xs-12 ">  ';
-var HTMLprojectDescription = '<div class ="col-xs-12"><h5 class ="skills-inline"> Description: </h5> <p class="text-justify skills-inline">%data%</p></div>';
-var HTMLskillsGained = '<div class ="col-xs-12 project-skills"><h5 class ="skills-inline"> Skills gained: </h5> <p class="text-justify skills-inline">%data%</p></div>';
+var HTMLprojectDates = '<div class="col-md-12"><h5 class="work-dates"> %data% </h5></div>';
+var HTMLprojectDescriptionTitle = '<div class ="col-md-12 ">  ';
+var HTMLprojectDescription = '<div class ="col-md-12"><h5 class ="skills-inline"> Description: </h5> <p class="text-justify skills-inline">%data%</p></div>';
+var HTMLskillsGained = '<div class ="col-md-12 project-skills"><h5 class ="skills-inline"> Skills gained: </h5> <p class="text-justify skills-inline">%data%</p></div>';
 var HTMLprojectImage = '<img src="%data%">';
 
 var HTMLschoolSection = '<div id = "school-section" class = "section row"> </div>';
