@@ -10,11 +10,11 @@ var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
 var HTMLworkSection = '<div id = "work-section" class = "section row"> </div>'
 var HTMLworkDetails = '<div class = "details row"> </div>'
-var HTMLworkWebsite = '<div class = "col-xs-9"> <a href= %website% target="_blank">'
+var HTMLworkWebsite = '<div class = "col-md-6"> <a href= %website% target="_blank">'
 var HTMLworkEmployer = '<h5 class="section-titles"> <b> %data% </b> </a>' ;
 var HTMLworkTitle = '  - %data%  </h5> </div>';
-var HTMLworkDates = '<div class="col-xs-12"><h5 class="work-dates">%data%</h5></div>';
-var HTMLworkLocation = '<div class="text-right"><h5><a href = "http://maps.google.com/?q=%data%" target="_blank">%data%</a></h5></div>';
+var HTMLworkDates = '<div class="col-md-12"><h5 class="work-dates">%data%</h5></div>';
+var HTMLworkLocation = '<div class="col-md-6 text-right work-location"><h5><a href = "http://maps.google.com/?q=%data%" target="_blank">%data%</a></h5></div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 var HTMLresponsibility = '<div class = "col-md-12"><h5 class="responsibility-heading"> <i class="fa fa-thumbs-o-up"></i> Responsibilities:</h5><ul class="responsibility"> </ul></div>'
 var HTMLkeyachievements = '<div class = "col-md-12"><h5><i class="fa fa-star"></i> Key Achievements:</h5><ul class="keyachievements"> </ul></div>'
