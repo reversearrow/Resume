@@ -48,24 +48,23 @@ var bio = {
     }
     ],
     "display" : function(){
-    var formattedName = HTMLheaderName.replace("%data%", bio.name);
-    $("#header").prepend(formattedName);
-    var formattedEmail = HTMLemail.replace("%data%",bio.contacts.email);
-    $("#topContacts").append(formattedEmail);
-    var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-    $("#topContacts").append(formattedGithub);
-    var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-    $("#topContacts").append(formattedLocation);
-    var formattedLinkedIN = HTMLLinkedIn.replace("%data%", bio.contacts.linkedIn);
-    $("#topContacts").append(formattedLinkedIN);
-    //Displaying Skills
-    $("#skills").append(HTMLskillSection);
-    $("#skills .section:last").append(HTMLskillDetails);
-    for (skills in bio.skills){
-        var formattedSkillsTitle = HTMLSkillTitle.replace("%data%", bio["skills"][skills].title);
-        var formattedSkills = HTMLSkillLists.replace("%data%", bio["skills"][skills].skillslist);
-        var formattedSkillTitle = formattedSkillsTitle + formattedSkills;
-        $("#skill-section .details:last").append(formattedSkillTitle);
+        var formattedName = HTMLheaderName.replace("%data%", bio.name);
+        $("#header").prepend(formattedName);
+        var formattedEmail = HTMLemail.replace("%data%",bio.contacts.email);
+        $("#topContacts").append(formattedEmail);
+        var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+        $("#topContacts").append(formattedGithub);
+        var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+        $("#topContacts").append(formattedLocation);
+        var formattedLinkedIN = HTMLLinkedIn.replace("%data%", bio.contacts.linkedIn);
+        $("#topContacts").append(formattedLinkedIN);
+        //Displaying Skills
+        $("#skills").append(HTMLskillSection);
+        for (skills in bio.skills){
+            var formattedSkillsTitle = HTMLSkillTitle.replace("%data%", bio["skills"][skills].title);
+            var formattedSkills = HTMLSkillLists.replace("%data%", bio["skills"][skills].skillslist);
+            var formattedSkillTitle = formattedSkillsTitle + formattedSkills;
+            $("#skills .section:last").append(formattedSkillTitle);
         }
     }
 };
@@ -108,8 +107,8 @@ var work = {
         "Troubleshot network infrastructure and implemented any necessary changes on a regular basis","Assisted with training and orientation of new staff members",
         "Managed inventory and lease returns of all network devices"],
        	"keyachievements": ["Worked part-time while studying full-time in networking and achieved cumulative GPA of 3.5","Developed Python script to automate reverse DNS lookup process, which streamlined the process from days to minutes",
-       	"Enhanced centralized security and access policy by implementing secure access control system","Optimized over 80% of total WAN traffic by assisting in deploying WAN optimizers between sites"
-       	," Enhanced network security by implementing BPDU Guard on applicable switch interface"]
+       	                    "Enhanced centralized security and access policy by implementing secure access control system","Optimized over 80% of total WAN traffic by assisting in deploying WAN optimizers between sites"
+       	                    ," Enhanced network security by implementing BPDU Guard on applicable switch interface"]
     },
     {
         "dates": "April 2012 - December 2013",
@@ -118,10 +117,10 @@ var work = {
         "location": "Toronto, Canada",
         "website": "https://www.tangerine.ca",
         "responsibilities": ["Coordinated with team members and completed technical projects in a timely manner","Prepared and maintained documentation of all network equipment and configurations"
-        ,"Kept over 250+ network devices configuration compliant with audit policies and in-sync","Assigned, configured and cleaned up IP addresses and switch-ports as per requirements"
-        ,"Created a monthly and daily bandwidth utilization reports for senior management to review","Assisted in setting up a network connection for end users"],
-       	"keyachievements": ["Boosted security on Routers, Switches, and Firewalls by hardening them","Assisted in reforming security for printers by isolating them using VLANs and ACLs"
-       	,"Designed a separate out-of-band network to manage & monitor all Canada-wide DMZ switches","Assisted in migrating & training 200+ users to SSL VPN","Advanced core banking infrastructure by upgrading 100 Mbps switches to 1 Gbps"]
+                            ,"Kept over 250+ network devices configuration compliant with audit policies and in-sync","Assigned, configured and cleaned up IP addresses and switch-ports as per requirements"
+                            ,"Created a monthly and daily bandwidth utilization reports for senior management to review","Assisted in setting up a network connection for end users"],
+       	                    "keyachievements": ["Boosted security on Routers, Switches, and Firewalls by hardening them","Assisted in reforming security for printers by isolating them using VLANs and ACLs"
+       	            ,"Designed a separate out-of-band network to manage & monitor all Canada-wide DMZ switches","Assisted in migrating & training 200+ users to SSL VPN","Advanced core banking infrastructure by upgrading 100 Mbps switches to 1 Gbps"]
     },
     {
         "dates": "2008 - 2011",
@@ -141,17 +140,16 @@ var work = {
             var formattedEmployerTitle = formattedWebsite + formattedEmployer + formattedTitle;
             var formattedLocation = HTMLworkLocation.replace(/%data%/g, work["jobs"][job].location);
             var formatteddates = HTMLworkDates.replace("%data%", work["jobs"][job].dates);
-            $("#workExperience .section").append(HTMLworkDetails);
-            $("#work-section .details:last").append(formattedEmployerTitle);
-            $("#work-section .details:last").append(formattedLocation);
-            $("#work-section .details:last").append(formatteddates);
+            $("#workExperience .section:last").append(formattedEmployerTitle);
+            $("#workExperience .section:last").append(formattedLocation);
+            $("#workExperience .section:last").append(formatteddates);
             //Adding Key-Achievements section only for Tangerine Bank experience.
             if (work["jobs"][job].employer == "Tangerine Bank") {
-                $("#work-section .details:last").append(HTMLresponsibility);
-                $("#work-section .details:last").append(HTMLkeyachievements);
+                $("#workExperience .section:last").append(HTMLresponsibility);
+                $("#workExperience .section:last").append(HTMLkeyachievements);
             }
             else {
-                $("#work-section .details:last").append(HTMLresponsibility);
+                $("#workExperience .section:last").append(HTMLresponsibility);
             }
             for (responsibility in work["jobs"][job].responsibilities) {
                 var formattedlist = HTMLworkListResponsibility.replace("%data%", work["jobs"][job].responsibilities[responsibility]);
@@ -206,14 +204,13 @@ var projects = {
         formattedDate = HTMLprojectDates.replace("%data%",projects["project"][pro].date);
         formattedDescription = HTMLprojectDescription.replace("%data%",projects["project"][pro].description);
         formattedskillsGained = HTMLskillsGained.replace("%data%", projects["project"][pro].skills);
-        $("#projects .section:last").append(HTMLprojectDetails);
-        $("#project-section .details:last").append(formattedLinkTitle);
-        $("#project-section .details:last").append(formattedDate);
-        $("#project-section .details:last").append(formattedDescription);
-        $("#project-section .details:last").append(formattedskillsGained);
+        $("#projects .section:last").append(formattedLinkTitle);
+        $("#projects .section:last").append(formattedDate);
+        $("#projects .section:last").append(formattedDescription);
+        $("#projects .section:last").append(formattedskillsGained);
         }
     }
-}
+};
 
 //Education Variable - Encapsulating education data and display function.
 var education = {
@@ -260,7 +257,7 @@ var education = {
         $("#school-section .details:last").append(formattedmajor);
         }
     }
-}
+};
 
 //Certification Variable - Encapsulating certification data and display function.
 var certifications = {
@@ -306,14 +303,14 @@ var certifications = {
             $("#certificate-section .details:last").append(formatteddate);
         }
     }
-}
+};
 
 // Map Variable - Encapsulating display function.
 var map = {
     "display": function() {
         $("#mapDiv").append(googleMap);
     }
-}
+};
 
 //Footer Variable - Encapsulating display function.
 var footer = {
@@ -329,7 +326,7 @@ var footer = {
         var formattedfooterEmail = HTMLfooterEmail.replace("%data%", bio.contacts.email);
         $("#footer-list").append(formattedfooterEmail);
     }
-}
+};
 
 //function for smooth scroll from : https://css-tricks.com/snippets/jquery/smooth-scrolling/
 $(function() {
