@@ -58,7 +58,7 @@ var googleMap = '<div id="map" class="section row"></div>';
 
 var HTMLfooter = '<div id = "footer" class = "row footer-contact-list">';
 var HTMLList = ' <ul id = "footer-list" class="list-unstyled">'
-var HTMLfooterMobile = '<li class= "contact-list"><a href = "#letsconnect" class = "text-white"> <b> Mobile: </b> %data% </a> </li>';
+var HTMLfooterMobile = '<li class= "contact-list"><a href = "tel:16477203375" class = "text-white"> <b> Mobile: </b> %data% </a> </li>';
 var HTMLfooterEmail = '<li class= "contact-list"><a href="mailto:reversearrow@gmail.com" class = "text-white" > <b> Email: </b> %data%  </a></li>';
 var HTMLfooterGithub = '<li class= "contact-list"><a href = "https://github.com/reversearrow" target="_blank" class = "text-white"> <b> Github: </b> %data% </a> </li>';
 var HTMLfooterLinkedIn = '<li class= "contact-list"><a href="https://ca.linkedin.com/in/jayshahh" target="_blank" class = "text-white"> <b> LinkedIn: </b> %data% </a> </li>';
@@ -90,8 +90,6 @@ function logClicks(x,y) {
 $(document).click(function(loc) {
 
 });
-
-
 
 /*
 This is the fun part. Here's where we generate the custom Google Map for the website.
