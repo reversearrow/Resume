@@ -8,13 +8,12 @@ var HTMLLinkedIn = '<li> <a href="https://ca.linkedin.com/in/%data%" target="_bl
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
-var HTMLworkSection = '<div id = "work-section" class = "section row"> </div>'
+var HTMLworkSection = '<div id = "work-section" class = "section"> </div>'
 var HTMLworkDetails = '<div class = "details row"> </div>'
 var HTMLworkWebsite = '<div class = "col-xs-9"> <a href= %website% target="_blank">'
 var HTMLworkEmployer = '<h5 class="section-titles"> <b> %data% </b> </a>' ;
 var HTMLworkTitle = '  - %data%  </h5> </div>';
 var HTMLworkDates = '<div class="col-xs-12"><h5 class="work-dates">%data%</h5></div>';
-
 var HTMLworkLocation = '<div class="col-xs-3 text-right"><h5><a href = "http://maps.google.com/?q=%data%" target="_blank">%data%</a></h5></div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 var HTMLresponsibility = '<div class = "col-xs-12"><h5 class="responsibility-heading"> <i class="fa fa-thumbs-o-up"></i> Responsibilities:</h5><ul class="responsibility"> </ul></div>'
@@ -23,7 +22,7 @@ var HTMLresponsibilityList = '<ul class="work-responsiblity"> </ul>'
 var HTMLworkListResponsibility = '<li class="list-unstyled"><i class="fa fa-minus"></i> %data%</li>'
 var HTMLworkListAchievements = '<li class="list-unstyled"><i class="fa fa-check list-icon"></i>%data%</li>'
 
-var HTMLprojectSection = '<div id = "project-section" class = "section row"> </div>';
+var HTMLprojectSection = '<div id = "project-section" class = "section"> </div>';
 var HTMLprojectDetails = '<div class = "details row"> </div>';
 var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectLink = '<div class = "col-xs-12"><a href = "%website%" target="_blank">';
@@ -35,7 +34,7 @@ var HTMLskillsGained = '<div class ="col-xs-12 project-skills"><h5 class ="skill
 var HTMLprojectImage = '<img src="%data%">';
 
 var HTMLschoolSection = '<div id = "school-section" class = "section row"> </div>';
-var HTMLschoolDetails = '<div class = "details col-xs-4"> </div>'
+var HTMLschoolDetails = '<div class = "details col-md-4"> </div>'
 var HTMLschoolStart = '<div class="education-entry "></div>';
 var HTMLschoolWebsite = '<a href="%website%"  target="_blank">'
 var HTMLschoolName = '<h5 class="section-titles" > <b> %data% </b>' ;
@@ -44,13 +43,13 @@ var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = 'Major: %data% ';
 
-var HTMLskillSection = '<div id = "skill-section" class = "section row"> </div>'
+var HTMLskillSection = '<div id = "skill-section" class = "section"> </div>'
 var HTMLskillDetails = '<div class = "details row"> </div>'
-var HTMLSkillTitle = ' <div class="col-xs-4" > <a href = "#skills">  <h5 class="section-titles"> <b>  %data% </b>  </a> </h5>' ;
+var HTMLSkillTitle = ' <div class="col-md-4"> <a href = "#skills">  <h5 class="section-titles"> <b>  %data% </b>  </a> </h5>' ;
 var HTMLSkillLists = '  %data%  </div> ';
 
 var HTMLcertificateSection = '<div id = "certificate-section" class = "section row"> </div>';
-var HTMLcertificateDetails = '<div class = "details col-xs-3"> </div>'
+var HTMLcertificateDetails = '<div class = "details col-md-6"> </div>'
 var HTMLcertificateWebsite = '<h5 class="section-titles"> <a href="%website%"  target="_blank">'
 var HTMLcertificateName = ' <b> %data% </b> </a> </h5>' ;
 var HTMLcertificateDates = '<div class="date-text">%data%</div>';
