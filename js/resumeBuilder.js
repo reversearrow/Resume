@@ -32,7 +32,7 @@ var bio = {
     },
     {
         "title" : "Appliances & Applications",
-        "skillslist": "IBM QRadar, F5 LTM, INFOBLOX, Cisco GSS, Arbor Pravail, GIGAMON, IXIA Anue, Riverbed Steelhead WAN Optimizers, Device Expert, Solarwinds NPM, Solarwinds IPAM, Cisco ACS 4.0, Cisco ACS 5.0, Algosec, Akamai, Cisco ASA"
+        "skillslist": "IBM QRadar, F5 LTM, INFOBLOX, Cisco GSS, Arbor Pravail, GIGAMON, IXIA Anue, Riverbed Steelhead WAN Optimizers, Device Expert, Solarwinds NPM, Solarwinds IPAM, Cisco ACS 4.0, Cisco ACS 5.0, Algosec, Akamai CDN"
     },
     {
         "title" : "Management Services",
@@ -40,7 +40,7 @@ var bio = {
     },
     {
         "title" : "Router, Switches and Firewall",
-        "skillslist": "Cisco Routers, Cisco Switches, HP Switches"
+        "skillslist": "Cisco Routers, Cisco Switches, Cisco ASA, HP Switches"
     },
     {
         "title" : "Operating Systems",
