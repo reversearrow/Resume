@@ -120,7 +120,7 @@ var work = {
                             ,"Kept over 250+ network devices configuration compliant with audit policies and in-sync","Assigned, configured and cleaned up IP addresses and switch-ports as per requirements"
                             ,"Created a monthly and daily bandwidth utilization reports for senior management to review","Assisted in setting up a network connection for end users"],
        	                    "keyachievements": ["Boosted security on Routers, Switches, and Firewalls by hardening them","Assisted in reforming security for printers by isolating them using VLANs and ACLs"
-       	            ,"Designed a separate out-of-band network to manage & monitor all Canada-wide DMZ switches","Assisted in migrating & training 200+ users to SSL VPN","Advanced core banking infrastructure by upgrading 100 Mbps switches to 1 Gbps"]
+       	            ,"Designed a separate out-of-band network to manage & monitor all Canada-wide DMZ switches","Assisted in migrating & training 200+ users to SSL VPN","Assisted in upgrading core banking infrastructure from 100 Mbps switches to 1 Gbps"]
     },
     {
         "dates": "2008 - 2011",
