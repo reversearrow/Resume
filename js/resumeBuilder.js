@@ -103,7 +103,7 @@ var work = {
         "title": "Network System Administrator - Contract",
         "location": "Toronto, Canada",
         "website": "https://www.tangerine.ca",
-        "responsibilities": ["Installed, configured, administered, and supported necessary hardware and software for LAN and WAN, including hubs, switches, routers, firewalls, network monitoring tools, configuration backup tools, network elements, andwiring to provide an optimized and reliable environment to run production & development applications",
+        "responsibilities": ["Installed, configured, administered, and supported necessary hardware and software for LAN and WAN, including hubs, switches, routers, firewalls, network monitoring tools, configuration backup tools, network elements, and wiring to provide an optimized and reliable environment to run production & development applications",
         "Troubleshot network infrastructure and implemented any necessary changes on a regular basis","Assisted with training and orientation of new staff members",
         "Managed inventory and lease returns of all network devices"],
        	"keyachievements": ["Worked part-time while studying full-time in networking and achieved cumulative GPA of 3.5","Developed Python script to automate reverse DNS lookup process, which streamlined the process from days to minutes",
@@ -190,7 +190,7 @@ var projects = {
     {
         "title": "Interactive Resume",
         "date": "May 2015",
-        "description": "Built an interactive resume using HTML, CSS, Javscript and JQuery.",
+        "description": "Built an interactive resume using HTML, CSS, Javscript and JQuery",
         "skills": "HTML, CSS, Javascript, JQuery, Bootstrap, Github, JSON",
         "website": "#"
     }
