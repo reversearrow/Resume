@@ -184,7 +184,7 @@ var projects = {
         "title": "Build a Search Engine",
         "date": "June 2014",
         "description": "Throughout the course, we built a search engine and learned about and produced key search engine components including a crawler, an index and a page rank algorithm. ",
-        "skills": "Python, Github and Computer Science Fundamentals such as Algorithms, Loops, Conditionals, Recursion, Lists, Dictionary, Tuples etc.",
+        "skills": "Python, Github and Computer Science Fundamentals such as Algorithms, Loops, Conditionals, Recursion, Lists, Dictionary, Tuples etc",
         "website": "https://github.com/reversearrow/CS101/blob/master/crawl.py"
     },
     {
