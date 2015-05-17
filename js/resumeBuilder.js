@@ -169,21 +169,21 @@ var projects = {
     {
         "title": "Create and Analyze a Social Network",
         "date": "July 2014",
-        "description": "At the end of the course a set of relationships (i.e. strings of phrases like “Dave likes Andy, Kathleen and Kristy”) were given and we had to use our new computer science skills to organize these relationships into a social network.",
+        "description": "At the end of the course a set of relationships (i.e. strings of phrases like “Dave likes Andy, Kathleen and Kristy”) were given and we had to use our new computer science skills to organize these relationships into a social network",
         "skills": "Python, Github and Computer Science Fundamentals such as Algorithms, Loops, Conditionals, Recursion, Lists, Dictionary, Tuples etc",
         "website": "https://github.com/reversearrow/CS101/blob/master/socialnetwork.py"
     },
     {
         "title": "Portfolio Mockup to Web Site",
         "date": "March 2015",
-        "description": "Took a design mockup as a PDF-file and replicated that design in HTML and CSS.",
+        "description": "Took a design mockup as a PDF-file and replicated that design in HTML and CSS",
         "skills": "HTML, CSS, Wireframing and Bootstrap, Github",
         "website": "https://reversearrow.github.io/Portfolio-Mockup"
     },
     {
         "title": "Build a Search Engine",
         "date": "June 2014",
-        "description": "Throughout the course, we built a search engine and learned about and produced key search engine components including a crawler, an index and a page rank algorithm. ",
+        "description": "Throughout the course, we built a search engine and learned about and produced key search engine components including a crawler, an index and a page rank algorithm",
         "skills": "Python, Github and Computer Science Fundamentals such as Algorithms, Loops, Conditionals, Recursion, Lists, Dictionary, Tuples etc",
         "website": "https://github.com/reversearrow/CS101/blob/master/crawl.py"
     },
