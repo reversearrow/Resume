@@ -12,7 +12,7 @@ var bio = {
     "skills" : [
     {
         "title" : "Programming",
-        "skillslist" : "Python, HTML, CSS, JavsScript"
+        "skillslist" : "Python, HTML, CSS, JavaScript"
     },
     {
         "title" : "Programming Libraries",
