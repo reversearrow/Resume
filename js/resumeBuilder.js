@@ -83,7 +83,7 @@ var work = {
                             "Designing, Configuring and troubleshooting enterprise networking"],
        	"keyachievements": ["Automated manual route lookup process by creating a console application which saved over 80% of individuals's time during that task",
                             "Hosted “Lunch & Learn” on Cisco ACS 5",
-                            "Enhanced security of LAN infrastructure by mitigating L2 attacks like VLAN hopping and CAM Table Overflow using switch port security and disabling auto negotiation",
+                            "Enhanced security of LAN infrastructure by mitigating L2 attacks like VLAN hopping and CAM Table Overflow",
                             "Assisted in implementing firewall analyzer and auditor",
                             "implemented command authorization on all Cisco Firewalls",
                             "Assisted in implementing IPSec Site-to-Site VPNs to partner networks for diverse projects",
