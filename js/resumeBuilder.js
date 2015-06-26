@@ -107,8 +107,7 @@ var work = {
         "Troubleshot network infrastructure and implemented any necessary changes on a regular basis","Assisted with training and orientation of new staff members",
         "Managed inventory and lease returns of all network devices"],
        	"keyachievements": ["Worked part-time while studying full-time in networking and achieved cumulative GPA of 3.5","Developed Python script to automate reverse DNS lookup process, which streamlined the process from days to minutes",
-       	                    "Enhanced centralized security and access policy by implementing secure access control system","Optimized over 80% of total WAN traffic by assisting in deploying WAN optimizers between sites"
-       	                    ," Enhanced network security by implementing BPDU Guard on applicable switch interface"]
+       	                    "Enhanced centralized security and access policy by implementing secure access control system"," Enhanced network security by implementing BPDU Guard on applicable switch interface"]
     },
     {
         "dates": "April 2012 - December 2013",
