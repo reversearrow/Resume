@@ -288,6 +288,13 @@ var certifications = {
         "authority": "ALGOSEC",
         "License": "N/A",
         "website": "http://www.algosec.com"
+    },
+    {
+        "name": "Learning How To Learn",
+        "date": "July 2015 - Present",
+        "authority": "Coursera",
+        "License": "FHQ8D5GUWUYP",
+        "website": "http://coursera.org/verify/FHQ8D5GUWUYP"
     }
     ],
     "display": function() {
