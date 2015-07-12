@@ -85,7 +85,7 @@ var work = {
                             "Hosted “Lunch & Learn” on Cisco ACS 5",
                             "Enhanced security of LAN infrastructure by mitigating L2 attacks like VLAN hopping and CAM Table Overflow",
                             "Assisted in implementing firewall analyzer and auditor",
-                            "implemented command authorization on all Cisco Firewalls",
+                            "Implemented command authorization on all Cisco Firewalls",
                             "Assisted in implementing IPSec Site-to-Site VPNs to partner networks for diverse projects",
                             "Collaborated in building and configuring SIEM solution and it's use cases"]
     },
