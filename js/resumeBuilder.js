@@ -262,7 +262,28 @@ var education = {
 var certifications = {
     "certificates": [
     {
-        "name": "Cisco Certified Network Associate - R&S",
+        "name": "Introduction to Computer Science",
+        "date": "July 2014 - Present",
+        "authority": "Udacity",
+        "License": "Udacity",
+        "website": "https://www.udacity.com/course/intro-to-computer-science--cs101"
+    },
+    {
+        "name": "Cisco ACI Test Drive",
+        "date": "June 2015 - Present",
+        "authority": "Firefly Education",
+        "License": "315283",
+        "website": "https://drive.google.com/file/d/0B-xMZuW4yeBsSHluUTF3QWhkZkU/view"
+    },
+    {
+        "name": "Learning How to Learn",
+        "date": "July 2015 - Present",
+        "authority": "Coursera Verified Certificagtes",
+        "License": "FHQ8D5GUWUYP",
+        "website": "http://coursera.org/verify/FHQ8D5GUWUYP"
+    },
+    {
+        "name": "Cisco Certified Network Associate - R & S",
         "date": "January 2012 - May 2018",
         "authority": "Cisco",
         "License": "409305687490IQCN",
@@ -274,13 +295,6 @@ var certifications = {
         "authority": "Cisco",
         "License": "409305687490IQCN",
         "website": "http://www.cisco.com/web/learning/certifications/associate/ccna_security/index.html"
-    },
-    {
-        "name": "Introduction to Computer Science",
-        "date": "July 2014 - Present",
-        "authority": "Udacity",
-        "License": "Udacity",
-        "website": "https://www.udacity.com/course/intro-to-computer-science--cs101"
     },
     {
         "name": "Certified Algosec Security Administrator",

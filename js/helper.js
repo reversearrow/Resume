@@ -48,7 +48,7 @@ var HTMLSkillTitle = ' <div class="col-md-4"> <a href = "#skills">  <h5 class="s
 var HTMLSkillLists = '  %data%  </div> ';
 
 var HTMLcertificateSection = '<div id = "certificate-section" class = "section row"> </div>';
-var HTMLcertificateDetails = '<div class = "details col-md-3"> </div>'
+var HTMLcertificateDetails = '<div class = "details col-md-4"> </div>'
 var HTMLcertificateWebsite = '<h5 class="section-titles"> <a href="%website%"  target="_blank">'
 var HTMLcertificateName = ' <b> %data% </b> </a> </h5>' ;
 var HTMLcertificateDates = '<div class="date-text">%data%</div>';
