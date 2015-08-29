@@ -192,6 +192,13 @@ var projects = {
         "description": "Built an interactive resume using HTML, CSS, Javscript and JQuery",
         "skills": "HTML, CSS, Javascript, JQuery, Bootstrap, Github, JSON",
         "website": "#"
+    },
+    {
+    	"title": "Arcade Game Clone",
+        "date": "August 2015",
+        "description": "Build an arcade game clone of class arcade game Frogger",
+        "skills": "Object Orinted Javascript, HTML5",
+        "website": "http://reversearrow.github.io/Frogger/"
     }
     ],
     "display": function() {
