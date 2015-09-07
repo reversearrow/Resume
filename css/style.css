@@ -39,7 +39,7 @@ body {
 /* Header of the page with background image */
 
 #header {
-	background-image: url(../images/cover.jpg);
+	background-image: url(../images/cover-opt.jpg);
 	background-color: #4e4e4e;
 	color: white;
 	padding: 10%;
