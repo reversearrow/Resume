@@ -1,67 +1,4 @@
-var HTMLheaderName = '<div class = "row"><h1 id="name">%data%</h1></div>';
 
-var HTMLemail = '<li><a href="mailto:%data%"><i class="fa fa-envelope-o contact-icons"></i></a></li>';
-var HTMLgithub = '<li><a href=https://github.com/%data% target="_blank"><i class="fa fa-github icons contact-icons"></i></a></li>';
-var HTMLlocation = '<li><a href="http://maps.google.com/?q=%data%" target="_blank"><i class="fa fa-home contact-icons"></i></a></li>';
-var HTMLLinkedIn = '<li> <a href="https://ca.linkedin.com/in/%data%" target="_blank"><i class="fa fa-linkedin contact-icons"></i></a></li>';
-
-var HTMLbioPic = '<img src="%data%" class="biopic">';
-var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
-
-var HTMLworkSection = '<div id = "work-section" class = "section row"> </div>'
-var HTMLworkDetails = '<div class = "details row"> </div>'
-var HTMLworkWebsite = '<div class = "col-md-6"> <a href= %website% target="_blank">'
-var HTMLworkEmployer = '<h5 class="section-titles"> <b> %data% </b> </a>' ;
-var HTMLworkTitle = '  - %data%  </h5> </div>';
-var HTMLworkDates = '<div class="col-md-12"><h5 class="work-dates">%data%</h5></div>';
-var HTMLworkLocation = '<div class="col-md-6 text-right work-location"><h5><a href = "http://maps.google.com/?q=%data%" target="_blank">%data%</a></h5></div>';
-var HTMLworkDescription = '<p><br>%data%</p>';
-var HTMLresponsibility = '<div class = "col-md-12"><h5 class="responsibility-heading"> <i class="fa fa-thumbs-o-up"></i> Responsibilities:</h5><ul class="responsibility"> </ul></div>'
-var HTMLkeyachievements = '<div class = "col-md-12"><h5><i class="fa fa-star"></i> Key Achievements:</h5><ul class="keyachievements"> </ul></div>'
-var HTMLresponsibilityList = '<ul class="work-responsiblity"> </ul>'
-var HTMLworkListResponsibility = '<li class="list-unstyled"><i class="fa fa-minus"></i> %data%</li>'
-var HTMLworkListAchievements = '<li class="list-unstyled"><i class="fa fa-check list-icon"></i>%data%</li>'
-
-var HTMLprojectSection = '<div id = "project-section" class = "section row"> </div>';
-var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectLink = '<div class = "col-md-12"><a href = "%website%" target="_blank">';
-var HTMLprojectTitle = '<h5 class="section-titles"> <b> %data% </b> </a> </h5> </div>';
-var HTMLprojectDates = '<div class="col-md-12"><h5 class="work-dates"> %data% </h5></div>';
-var HTMLprojectDescriptionTitle = '<div class ="col-md-12 ">  ';
-var HTMLprojectDescription = '<div class ="col-md-12"><h5 class ="skills-inline"> Description: </h5> <p class="text-justify skills-inline">%data%</p></div>';
-var HTMLskillsGained = '<div class ="col-md-12 project-skills"><h5 class ="skills-inline"> Skills gained: </h5> <p class="text-justify skills-inline">%data%</p></div>';
-var HTMLprojectImage = '<img src="%data%">';
-
-var HTMLschoolSection = '<div id = "school-section" class = "section row"> </div>';
-var HTMLschoolDetails = '<div class = "details col-md-4"> </div>'
-var HTMLschoolStart = '<div class="education-entry "></div>';
-var HTMLschoolWebsite = '<a href="%website%"  target="_blank">'
-var HTMLschoolName = '<h5 class="section-titles" > <b> %data% </b>' ;
-var HTMLschoolDegree = ' - %data% </a> </h5> ';
-var HTMLschoolDates = '<div class="date-text">%data%</div>';
-var HTMLschoolLocation = '<div class="location-text">%data%</div>';
-var HTMLschoolMajor = 'Major: %data% ';
-
-var HTMLskillSection = '<div id = "skill-section" class = "section row"> </div>'
-var HTMLskillDetails = '<div class = "details"> </div>'
-var HTMLSkillTitle = ' <div class="col-md-4"> <a href = "#skills">  <h5 class="section-titles"> <b>  %data% </b>  </a> </h5>' ;
-var HTMLSkillLists = '  %data%  </div> ';
-
-var HTMLcertificateSection = '<div id = "certificate-section" class = "section row"> </div>';
-var HTMLcertificateDetails = '<div class = "details col-md-4"> </div>'
-var HTMLcertificateWebsite = '<h5 class="section-titles"> <a href="%website%"  target="_blank">'
-var HTMLcertificateName = ' <b> %data% </b> </a> </h5>' ;
-var HTMLcertificateDates = '<div class="date-text">%data%</div>';
-
-var internationalizeButton = '<button>Internationalize</button>';
-var googleMap = '<div id="map" class="section row"></div>';
-
-var HTMLfooter = '<div id = "footer" class = "row footer-contact-list">';
-var HTMLList = ' <ul id = "footer-list" class="list-unstyled">'
-var HTMLfooterMobile = '<li class= "contact-list"><a href = "tel:16477203375" class = "text-white"> <b> Mobile: </b> %data% </a> </li>';
-var HTMLfooterEmail = '<li class= "contact-list"><a href="mailto:reversearrow@gmail.com" class = "text-white" > <b> Email: </b> %data%  </a></li>';
-var HTMLfooterGithub = '<li class= "contact-list"><a href = "https://github.com/reversearrow" target="_blank" class = "text-white"> <b> Github: </b> %data% </a> </li>';
-var HTMLfooterLinkedIn = '<li class= "contact-list"><a href="https://ca.linkedin.com/in/jayshahh" target="_blank" class = "text-white"> <b> LinkedIn: </b> %data% </a> </li>';
 /*
 The International Name challenge in Lesson 2 where you'll create a function that will need this helper code to run. Don't delete! It hooks up your code to the button you'll be appending.
 */
@@ -223,9 +160,6 @@ function initializeMap() {
   pinPoster(locations);
 
 }
-
-
-
 
 window.addEventListener('load', initializeMap);
 
