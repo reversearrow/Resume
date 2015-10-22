@@ -93,6 +93,7 @@ $(document).click(function(loc) {
 
 });
 
+
 /*
 This is the fun part. Here's where we generate the custom Google Map for the website.
 See the documentation below for more details.
@@ -228,10 +229,10 @@ function initializeMap() {
 
 window.addEventListener('load', initializeMap);
 
-
 window.addEventListener('resize', function(e) {
 
 map.fitBounds(mapBounds);
+
 });
 
 
@@ -600,12 +601,6 @@ $(function() {
   });
 });
 
-//function to log clicks
-$(document).click(function(loc) {
-    var x = loc.pageX;
-    var y = loc.pageY;
-    logClicks(x,y);
-});
 
 //Calling all display functions
 bio.display();
