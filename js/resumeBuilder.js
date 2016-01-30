@@ -436,6 +436,13 @@ var projects = {
         "description": "Build an arcade game clone of class arcade game Frogger",
         "skills": "Object Orinted Javascript, HTML5",
         "website": "http://reversearrow.github.io/Frogger/"
+    },
+    {
+      "title": "Website Performance Optimization",
+        "date": "January 2016",
+        "description": "Optimized a website to achive Google Page Speed score over 90 on mobile and desktop and made pizza.html render consistently at 60FPS",
+        "skills": "Javascript, Build Tools, Browser Optimization, Efficient Javascript Writing, Minifying",
+        "website": "https://github.com/reversearrow/web-perf"
     }
     ],
     "display": function() {
