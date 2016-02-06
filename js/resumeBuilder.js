@@ -441,8 +441,15 @@ var projects = {
       "title": "Website Performance Optimization",
         "date": "January 2016",
         "description": "Optimized a website to achive Google Page Speed score over 90 on mobile and desktop and made pizza.html render consistently at 60FPS",
-        "skills": "Javascript, Build Tools, Browser Optimization, Efficient Javascript Writing, Minifying",
+        "skills": "Javascript, Build Tools, Browser Optimization, Javascript Optmization, Minifying, Grunt",
         "website": "https://github.com/reversearrow/web-perf"
+    },
+    {
+      "title": "Hacker-News Site Optimization",
+        "date": "January 2016",
+        "description": "Optimized a website to achive 60 FPS, Improved Paint Time, Long-running and badly-timed JavaScript using RequestAnimationFrame, Layout Thrashing, Unnecessary layouts",
+        "skills": "Javascript, Build Tools, Browser Optimization, Javascript Optmization, Minifying",
+        "website": "https://github.com/reversearrow/Hacker-News"
     }
     ],
     "display": function() {
