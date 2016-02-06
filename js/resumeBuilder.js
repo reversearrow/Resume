@@ -249,11 +249,11 @@ var bio = {
     "skills" : [
     {
         "title" : "Programming",
-        "skillslist" : "Python, HTML, CSS, JavaScript, Object-Oriented Programming"
+        "skillslist" : "Python, JavaScript, HTML, CSS, TCL, F5 iRules"
     },
     {
-        "title" : "Programming Libraries",
-        "skillslist": "jQuery"
+        "title" : "Frameworks",
+        "skillslist": "jQuery, Bootstrap"
     },
     {
         "title" : "Computer Networking",
@@ -261,7 +261,7 @@ var bio = {
     },
     {
         "title" : "Routing & Switching Technologies",
-        "skillslist": "HSRP, VRRP, STP, RSTP, PVST+, VLAN, dot1Q, UDLD, VTP, LACP, SPAN, Stackwise, VPC, EIGRP, BGP, MPLS, Route Maps, Prefix Lists and Route Redistribution"
+        "skillslist": "HSRP, VRRP, STP, RSTP, PVST+, VLAN, dot1Q, UDLD, VTP, LACP, SPAN, Stackwise, VPC, EIGRP, BGP, OSPF, MPLS, Route Maps, Prefix Lists and Route Redistribution"
     },
     {
         "title" : "Infrastructure Security",
@@ -269,7 +269,7 @@ var bio = {
     },
     {
         "title" : "Appliances & Applications",
-        "skillslist": "IBM QRadar, F5 LTM, INFOBLOX, Cisco GSS, Arbor Pravail, GIGAMON, IXIA Anue, Riverbed Steelhead WAN Optimizers, Device Expert, Solarwinds NPM, Solarwinds IPAM, Cisco ACS 4.0, Cisco ACS 5.0, Algosec, Akamai CDN"
+        "skillslist": "IBM QRadar, F5 LTM, F5 GTM, INFOBLOX, Cisco GSS, Arbor Pravail, Arbor NSI, GIGAMON, IXIA Anue, Riverbed Steelhead WAN Optimizers, Device Expert, Solarwinds NPM, Solarwinds IPAM, Cisco ACS 4.0, Cisco ACS 5.0, Algosec AFA, Akamai CDN"
     },
     {
         "title" : "Management Services",
@@ -277,11 +277,11 @@ var bio = {
     },
     {
         "title" : "Router, Switches and Firewall",
-        "skillslist": "Cisco Routers, Cisco Switches, Cisco ASA, HP Switches"
+        "skillslist": "Cisco Routers, Cisco Switches, Cisco ASA, HP Switches, Brocade Storage Switches"
     },
     {
         "title" : "Operating Systems",
-        "skillslist": "Cisco IOS, CISCO NX-OS, Windows 2008, Windows 7"
+        "skillslist": "Cisco IOS, CISCO NX-OS, Windows 2008, Windows 7, Windows 10, Ubuntu Linux"
     }
     ],
     "display" : function(){
@@ -318,7 +318,7 @@ var work = {
         "responsibilities" : ["Mentoring and assisting junior network members","Helping network team achieve highest SLA"
                             ,"Documenting all necessary changes","On-Call support for the Network Infrastructure Support team",
                             "Designing, Configuring and troubleshooting enterprise networking"],
-       	"keyachievements": ["Automated manual route lookup process by creating a console application which saved over 80% of individuals's time during that task",
+       	"keyachievements": ["Reduced network on-call support time required by automating Akamai Cache invalidation process using Python script","POC Network Packet Brokers and network TAPs, implemented Network Packet Broker which brought 100% visiablity in the network","Implemented centralized controller to manage all DDOS mitigation appliances which led to configuration consistency and easier management for all the appliances","Automated manual route lookup process by creating a console application which saved over 80% of individuals's time during that task",
                             "Hosted “Lunch & Learn” on Cisco ACS 5",
                             "Enhanced security of LAN infrastructure by mitigating L2 attacks like VLAN hopping and CAM Table Overflow",
                             "Assisted in implementing firewall analyzer and auditor",
