@@ -253,7 +253,7 @@ var bio = {
     },
     {
         "title" : "Frameworks",
-        "skillslist": "jQuery, Bootstrap"
+        "skillslist": "jQuery, Bootstrap, Flask, Webapp2, Jinja2, Grunt"
     },
     {
         "title" : "Computer Networking",
